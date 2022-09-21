@@ -14,5 +14,10 @@
 	// "postCreateCommand": "uname -a",
 
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	"remoteUser": "vscode"
+	"remoteUser": "vscode",
+
+	// Use 'onCreateCommand' to run commands after the container is created.
+	"onCreateCommand": "bash .devcontainer/on_create_command.sh",
+	// Use 'postStartCommand' to run commands each time on start container.
+	"postStartCommand": "bash .devcontainer/post_start_command.sh"
 }
