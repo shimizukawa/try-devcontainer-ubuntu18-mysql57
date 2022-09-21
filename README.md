@@ -1,4 +1,4 @@
 # ubuntu18-codespace
 
-1. copy .devcontainer from https://github.com/microsoft/vscode-dev-containers/tree/main/containers/ubuntu
-2. change .devcontainer/devcontainer.json "VARIANT" to "ubuntu-18.04"
+1. use ubuntu-18 image from https://github.com/devcontainers/images/tree/main/src/base-ubuntu
+2. TBD: use features from https://github.com/devcontainers/features/tree/main/src
