@@ -1,1 +1,1 @@
-sudo mysql server start
+sudo service mysql start
